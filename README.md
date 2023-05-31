@@ -1,8 +1,42 @@
-Sure! Here's the complete Markdown README for the provided code:
-
 # MNIST Digit Recognition
 
 This repository contains code for training and evaluating a convolutional neural network (CNN) model for digit recognition using the MNIST dataset. The model is implemented using Keras and TensorFlow.
+
+## Installation
+
+To run this project, follow the steps below:
+
+1. Clone the repository to your local machine using the following command:
+
+   ```shell
+   git clone https://github.com/ankitkanani02/Digitron.git
+   ```
+
+2. Change into the project directory:
+
+   ```shell
+   cd mnist-digit-recognition
+   ```
+
+3. Install the required dependencies by running the following command:
+
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+   This will install Keras, Gradio, and TensorFlow.
+
+4. Run the project by executing interface file `predict.py`:
+
+   ```shell
+   python predict.py
+   ```
+
+   The model will be trained using the MNIST dataset and saved as `mnist.h5`. This will launch the Gradio interface where you can draw digits and make predictions using the trained model.
+
+Now you're ready to use the MNIST digit recognition project! You can explore the code, run the training, and test the model using the sketchpad interface.
+
+Please note that the commands are represented using Markdown syntax to maintain the formatting.
 
 ## Prerequisites
 
